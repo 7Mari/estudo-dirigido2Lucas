@@ -1,0 +1,15 @@
+public class Main
+{
+	public static void main(String[] args) {
+	   float saldo = 5000;
+	   
+        System.out.println("Opção 1: Saldo");
+        System.out.println("Opção 2: Usuário Cadastrado");
+        System.out.println("Opção 3: Encaminhar para um atendente");
+        System.out.println();
+        System.out.println("Opção escolhida: 1");
+        System.out.println("O saldo da sua conta é de R$" +saldo);
+	    
+	     
+	}
+}
