@@ -1,0 +1,15 @@
+public class Main
+{
+	public static void main(String[] args) {
+	   int idade = 16;
+	   
+	   System.out.println("Idade: "+ idade);
+	   
+        if (idade > 18)
+        System.out.println("Acesso Aprovado");
+        else
+        System.out.println("Acesso Negado");
+	    
+	     
+	}
+}
