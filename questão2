@@ -1,0 +1,22 @@
+public class Main
+{
+	public static void main(String[] args) {
+	   float soma;
+	   float n1 = 3;
+	   float n2 = 5;
+	   float n3 = 7;
+	   float n4 = 4;
+	   float media = (n1 + n2 + n3 + n4) / 4;
+	   
+	   System.out.println("Média: "+ media);
+	   
+        if (media >= 7) 
+        System.out.println("Aprovado! ^-^");
+        else if(media >= 4)
+        System.out.println("Reprovado COM direito a Recuperação! o-o");
+        else
+        System.out.println("Reprovado SEM direito a Recuperação! T-T");
+	    
+	     
+	}
+}
