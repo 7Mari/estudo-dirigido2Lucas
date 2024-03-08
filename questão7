@@ -1,0 +1,19 @@
+
+public class Main
+{
+	public static void main(String[] args) {
+	    int n1 = 40;
+	    int n2 = 20;
+	    int soma = n1 + n2;
+	    int multi = n1 * n2;
+	    int div = n1 /n2;
+	    
+	    System.out.println("Primeiro Número: " +n1);
+	    System.out.println("Segundo Número: " + n2);
+	    System.out.println();
+	    System.out.println("Soma: " +soma);
+	    System.out.println("Multiplicação: " +multi);
+	    System.out.println("Divisão: " +div);
+	     
+	}
+}
