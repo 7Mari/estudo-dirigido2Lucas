@@ -1,0 +1,68 @@
+
+public class Main
+{
+	public static void main(String[] args) {
+	    String[] Produto ={"|-Produto A-|" , "|-Produto B-|" , "|-Produto C-|"};
+	    
+	    float VMDa, EMINa, EMAXa, EAa = 100, LRa = 85, TRa = 6;
+	    float mes1a = 250, mes2a = 500 ,mes3a = 800 ,mes4a = 1200;
+	    
+	    VMDa = ((mes1a + mes2a + mes3a + mes4a)/4)/25;
+	    EMINa = VMDa * TRa;
+	    EMAXa = EMINa + LRa;
+	    
+	    System.out.println(Produto[0]); 
+	    System.out.println("VENDA MÉDIA DIÁRIA: " +VMDa);     
+	    System.out.println("ESTOQUE MÍNIMO: " +EMINa);         
+	    System.out.println("ESTOQUE MÁXIMO: " +EMAXa);        
+	    
+	    if (EAa > EMINa)                                      
+	    System.out.println("--Não Comprar");                   
+	    else                                              
+	    System.out.println("--Comprar");   
+	    
+	    System.out.println();
+	    
+	    //produtoB
+	    
+	    float VMDb, EMINb, EMAXb, EAb = 150, LRb = 90, TRb = 8;
+	    float mes1b = 700, mes2b = 900 ,mes3b = 1300 ,mes4b = 1600;
+	    
+	    VMDb = ((mes1b + mes2b + mes3b + mes4b)/4)/25;
+	    EMINb = VMDb * TRb;
+	    EMAXb = EMINb + LRb;
+	    
+	    System.out.println(Produto[1]);
+	    System.out.println("VENDA MÉDIA DIÁRIA: " +VMDb);     
+	    System.out.println("ESTOQUE MÍNIMO: " +EMINb);         
+	    System.out.println("ESTOQUE MÁXIMO: " +EMAXb);        
+	    
+	    if (EAb > EMINb)                                      
+	    System.out.println("--Não Comprar");                   
+	    else                                              
+	    System.out.println("--Comprar");
+	    
+	    System.out.println();
+	    
+	    //produtoC
+	    
+	    float VMDc, EMINc, EMAXc, EAc = 60, LRc = 120, TRc = 9;
+	    float mes1c = 900, mes2c = 1600 ,mes3c = 2100 , mes4c = 1700;
+	    
+	    VMDc = ((mes1c + mes2c + mes3c + mes4c)/4)/25;
+	    EMINc = VMDc * TRc;
+	    EMAXc = EMINc + LRc;
+	    
+	    System.out.println(Produto[2]);
+	    System.out.println("VENDA MÉDIA DIÁRIA: " +VMDc);     
+	    System.out.println("ESTOQUE MÍNIMO: " +EMINc);         
+	    System.out.println("ESTOQUE MÁXIMO: " +EMAXc);        
+	    
+	    
+	    if (EAc > EMINc)                                      
+	    System.out.println("--Não Comprar");                   
+	    else                                              
+	    System.out.println("--Comprar");
+	     
+	}
+}
